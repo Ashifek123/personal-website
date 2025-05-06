@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f3;
+            color: #1f1f1f;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #005a9e;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 30px 0 15px;
+            color: #1f1f1f;
+        }
+
+        p, li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #005a9e;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        a {
+            color: #005a9e;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #003d73;
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: #606060;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p, li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📃 Terms and Conditions</h1>
+        <p class="last-updated">Last updated: May 6, 2025</p>
+        <p>By using this website, you agree to the following terms. If you do not agree, please discontinue use immediately.</p>
+
+        <h2>1. Use of Website</h2>
+        <ul>
+            <li>You may browse content for personal, non-commercial use</li>
+            <li>You must not misuse, hack, or disrupt this website</li>
+        </ul>
+
+        <h2>2. Intellectual Property</h2>
+        <ul>
+            <li>All content, images, and code are owned by Your Name or Brand</li>
+            <li>You may not copy, reproduce, or reuse without written permission</li>
+        </ul>
+
+        <h2>3. Limitation of Liability</h2>
+        <ul>
+            <li>We do not guarantee the accuracy or reliability of content</li>
+            <li>We are not liable for any loss or damage resulting from using the site</li>
+        </ul>
+
+        <h2>4. Changes to Terms</h2>
+        <ul>
+            <li>These terms may be updated at any time without prior notice</li>
+            <li>Continued use after changes indicates your acceptance</li>
+        </ul>
+    </div>
+
+    <script>
+        // Basic interactivity for smooth scrolling (if needed)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f3;
+            color: #1f1f1f;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #005a9e;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 30px 0 15px;
+            color: #1f1f1f;
+        }
+
+        p, li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #005a9e;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        a {
+            color: #005a9e;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #003d73;
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: #606060;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #e0e0e0;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p, li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍪 Cookies Policy</h1>
+        <p class="last-updated">Last updated: May 6, 2025</p>
+        <p>This site uses cookies to ensure a better browsing experience.</p>
+
+        <h2>What Are Cookies?</h2>
+        <p>Cookies are small files stored on your device to remember preferences and track visitor behavior.</p>
+
+        <h2>How We Use Cookies</h2>
+        <ul>
+            <li>Website traffic analytics (e.g., Google Analytics)</li>
+            <li>Saving user preferences</li>
+            <li>Improving loading times and experience</li>
+        </ul>
+
+        <h2>Your Control</h2>
+        <ul>
+            <li>You can disable cookies through your browser settings</li>
+            <li>Disabling cookies may affect site functionality</li>
+        </ul>
+
+        <p>By using this site, you consent to our use of cookies.</p>
+        <hr>
+    </div>
+
+    <script>
+        // Basic interactivity for smooth scrolling (if needed)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
